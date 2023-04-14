@@ -1,0 +1,29 @@
+{
+  "name": "my-backend",
+  "version": "1.0.0",
+  "description": "A simple backend for the coding exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterjackiediaojie/Marvelous-backend.git"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "express"
+  ],
+  "author": "Peter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterjackiediaojie/Marvelous-backend/issues"
+  },
+  "homepage": "https://github.com/peterjackiediaojie/Marvelous-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
