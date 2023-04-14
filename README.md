@@ -8,11 +8,11 @@ This is a web application that enables users to manage their tasks using a To-Do
 To run this application on your local machine, you need to have Node.js, npm (Node Package Manager) and MySql installed. Follow the steps below to get started:
 
 # Clone the repository from GitHub to your local machine.
-Navigate to the project directory in your terminal.
-Run npm install to install the necessary dependencies.
-Create a MySQL database.
-Create a .env file and add the database connection details (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) and port number (PORT).
-Run npm start to start the development server.
+1. Navigate to the project directory in your terminal.
+2. Run npm install to install the necessary dependencies.
+3. Create a MySQL database.
+4. Create a .env file and add the database connection details (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) and port number (PORT).
+5. Run node index.js to start the development server.
 
 # User Interface
 The UI is designed to be simple and user-friendly.
