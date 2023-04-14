@@ -1,20 +1,20 @@
-#Project Name
+# Project Name
 To-Do List Web Application
 
-#Description
+# Description
 This is a web application that enables users to manage their tasks using a To-Do list. The application is built with React on the front-end and Node.js and MySQL on the back-end. It is designed to be a single-page web application that calls APIs to perform all the necessary operations. The application is public and does not require authentication or authorization. All business logic exists on the API side, and the front-end communicates with the back-end to fetch and update data.
 
-#Installation
+# Installation
 To run this application on your local machine, you need to have Node.js, npm (Node Package Manager) and MySql installed. Follow the steps below to get started:
 
-#Clone the repository from GitHub to your local machine.
+# Clone the repository from GitHub to your local machine.
 Navigate to the project directory in your terminal.
 Run npm install to install the necessary dependencies.
 Create a MySQL database.
 Create a .env file and add the database connection details (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) and port number (PORT).
 Run npm start to start the development server.
 
-#User Interface
+# User Interface
 The UI is designed to be simple and user-friendly.
 The tab displays two columns: To-Do and Done.
 The To-Do list is unlimited, and the Done list displays the 10 most recently completed tasks.
@@ -26,10 +26,10 @@ Users can delete all tasks after confirmation.
 The search box allows users to filter both columns to display only items matching the text entered.
 ![image](https://user-images.githubusercontent.com/121654126/232080979-7b550f9f-bb5e-4d17-8fc8-8cac8895471b.png)
 
-#Backend API
+# Backend API
 All the columns' content is stored on the back-end, and the front-end communicates with the API to perform CRUD operations. The API's business logic is responsible for managing the To-Do and Done columns, and the front-end is responsible for displaying the data and accepting user input. The API uses RESTful endpoints to retrieve, add, update, and delete data.
 
-#Technologies
+# Technologies
 React
 Node.js
 MySQL
